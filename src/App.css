@@ -1,0 +1,24 @@
+/* Tailwind CSS default styles */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.app-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 1rem;
+}
+
+.input-container {
+  margin-bottom: 1rem;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.filter-container {
+  margin-bottom: 1rem;
+}
